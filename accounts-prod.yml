@@ -8,7 +8,7 @@ accounts:
   message: "im uday"
   contactDetails:
     name:"uday"
-    email:"uday@gmail.com"
+    email:"{cipher}b7f82ce35bbb228cb586a3cb44f51ee05384bb1bd492b4758cd3f095716a3e49"
   onCallSupport:
     -12345
     -1234545
