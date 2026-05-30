@@ -1,0 +1,13 @@
+server:
+  port: 8072
+  
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    registerWithEureka: true
+    fetchRegistry: true
+    serviceUrl:
+      defaultZone: "http://localhost:8070/eureka/"
+
+#we are connecting the gateway server to eureka to know actual endpoints of the micro servieces/
